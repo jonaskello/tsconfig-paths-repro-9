@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig-paths-bug1",
+  "name": "tsconfig-paths-repro-9",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,6 +10,7 @@
     "typescript": "^2.4.1"
   },
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register main.ts"
+    "start": "node run.js",
+    "start2": "ts-node -r tsconfig-paths/register main.ts"
   }
 }
