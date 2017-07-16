@@ -1,0 +1,15 @@
+{
+  "name": "tsconfig-paths-bug1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.13",
+    "ts-node": "^3.2.0",
+    "tsconfig-paths": "^2.2.0",
+    "typescript": "^2.4.1"
+  },
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register main.ts"
+  }
+}
